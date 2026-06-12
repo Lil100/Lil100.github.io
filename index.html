@@ -1,720 +1,552 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-
-	<meta charset="utf-8">
-
-	<!-- Template site title
-   ================================================== -->
-	<title>Nemo's adventures</title>
-
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-<!--
-
-Template 2078 Adventure
-
-http://www.tooplate.com/view/2078-adventure
-
--->
-	<!-- Bootstrap CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-
-	<!-- Animate CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/animate.min.css">
-
-	<!-- Font Icons
-   ================================================== -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/et-line-font.css">
-
-	<!-- Nivo Lightbox CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
-
-	<!-- Owl Carousel CSS
-   ================================================== -->
-   	<link rel="stylesheet" href="css/owl.theme.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-
-	<!-- BxSlider CSS
-   ================================================== -->
-   	<link rel="stylesheet" href="css/bxslider.css">
-
-   	<!-- Main CSS
-   	================================================== -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Google web font
-   ================================================== -->
-	<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
-	
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lilian Wairimu Muriithi | Software Engineer & AI Engineer | Backend Developer</title>
+  <meta name="title" content="Lilian Wairimu Muriithi | Software Engineer & AI Engineer | Backend Developer">
+  <meta name="description" content="Building intelligent systems, scalable backend platforms, fintech infrastructure and AI-powered solutions for real-world impact. Specializing in Spring Boot, Deep Learning, Computer Vision, and Digital Banking.">
+  <meta name="keywords" content="Lilian Wairimu, Software Engineer, AI Engineer, Backend Developer, Deep Learning, Computer Vision, Spring Boot, Microservices, Fintech, Kenya, Africa">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Lilian Wairimu Muriithi">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lil100.github.io/">
+  <meta property="og:title" content="Lilian Wairimu Muriithi | Software Engineer & AI Engineer">
+  <meta property="og:description" content="Building intelligent systems, scalable backend platforms, fintech infrastructure and AI-powered solutions for real-world impact.">
+  <meta property="og:image" content="https://lil100.github.io/images/passport.jpeg">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Lilian Wairimu Muriithi | Software Engineer & AI Engineer">
+  <meta property="twitter:description" content="Building intelligent systems, scalable backend platforms, fintech infrastructure and AI-powered solutions for real-world impact.">
+  <meta property="twitter:image" content="https://lil100.github.io/images/passport.jpeg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lilian Wairimu Muriithi",
+    "url": "https://lil100.github.io/",
+    "jobTitle": ["Software Engineer", "AI Engineer", "Backend Developer", "Technology Builder"],
+    "knowsAbout": ["Artificial Intelligence", "Computer Vision", "Deep Learning", "Spring Boot", "Microservices", "Fintech", "Digital Banking", "Payment Systems"],
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Technical University of Kenya" },
+    "email": "lilianmuriithi01@gmail.com"
+  }
+  </script>
+  <link rel="stylesheet" href="src/styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 </head>
+<body>
+  <!-- NAVIGATION -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo" aria-label="Lilian Wairimu home">
+        <span class="nav__logo-dot"></span>
+        LILIAN WAIRIMU
+      </a>
+      <div class="nav__links" id="navLinks" role="menubar">
+        <a href="#about" class="nav__link" role="menuitem">About</a>
+        <a href="#journey" class="nav__link" role="menuitem">Journey</a>
+        <a href="#expertise" class="nav__link" role="menuitem">Expertise</a>
+        <a href="#projects" class="nav__link" role="menuitem">Projects</a>
+        <a href="#experience" class="nav__link" role="menuitem">Experience</a>
+        <a href="#education" class="nav__link" role="menuitem">Education</a>
+        <a href="#contact" class="nav__link" role="menuitem">Contact</a>
+      </div>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <span id="themeIcon">🌙</span>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span class="mobile-menu-btn__icon"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
 
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
-
-
-<!-- Preloader section
-================================================== -->
-<section  class="preloader">
-
-	<div class="sk-rotating-plane"></div>
-
-</section>
-
-
-<!-- Navigation section
-================================================== -->
-<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
-	<div class="container">
-
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="#home" class="smoothScroll navbar-brand">Nemo's Adventures</a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-            
-				<!-- <li><a href="#home" class="smoothScroll">HOME</a></li> -->
-                
-				<li><a href="#work" class="smoothScroll">WORK</a></li>
-				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
-				<li><a href="#team" class="smoothScroll">TEAM</a></li>
-				<li><a href="#portfolio" class="smoothScroll">GALLERY</a></li>
-				<li><a href="#plan" class="smoothScroll">PLANS</a></li>
-				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-			</ul>
-		</div>
-
-	</div>
-</section>
-
-
-<!-- Homepage section
-================================================== -->
-<div id="home">
-	<div class="site-slider">
-        <ul class="bxslider">
-			<li>
-                <img src="images/slider/slide1.jpeg" alt="slider image 1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="slider-caption">
-                                <h2>Plan your trip</h2>
-                                <p class="color-white">Plan your adventure with us by exploring personalized itineraries, travel tips, and destination highlights to create the perfect journey!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <img src="images/slider/slide2.jpg" alt="slider image 2">
-                <div class="container caption-wrapper">
-                    <div class="slider-caption">
-                        <h2>Essential Travel Resources</h2>
-                        <p class="color-white">Equip yourself with practical tools like packing checklists, budgeting guides, and local insights to navigate your journey smoothly and make the most of your adventure!</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <img src="images/slider/slide3.jpg" alt="slider image 3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="slider-caption">
-                                <h2>Travel Inspiration</h2>
-                                <p class="color-white">Explore captivating stories, stunning photos, and recommendations from fellow adventurers to ignite your wanderlust and help you choose your next destination!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <img src="images/slider/slide4.jpg" alt="slider image 4">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="slider-caption">
-                                <h2>Explore Kenya's Wild Wonders</h2>
-                                <p class="color-white">Delve into Kenya's breathtaking landscapes, from the iconic Maasai Mara to the serene shores of Lake Naivasha, and discover thrilling activities like wildlife safaris, hiking, and cultural experiences that will make your adventure unforgettable!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <img src="images/slider/slide5.jpg" alt="slider image 5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="slider-caption">
-                                <h2>Cultural Experiences in Kenya</h2>
-                               <p class="color-white">Immerse yourself in Kenya’s rich culture by visiting local villages, participating in traditional ceremonies, and exploring vibrant markets that showcase the country's diverse heritage and warm hospitality!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul> <!-- /.bxslider -->
-        <div class="bx-thumbnail-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="bx-pager">
-                            <a data-slide-index="0" href=""><img src="images/slider/thumb1.jpeg" alt="thumbnail 1" /></a>
-                            <a data-slide-index="1" href=""><img src="images/slider/thumb2.jpg" alt="thumbnail 2" /></a>
-                            <a data-slide-index="2" href=""><img src="images/slider/thumb3.jpg" alt="thumbnail 3" /></a>
-                            <a data-slide-index="3" href=""><img src="images/slider/thumb4.jpg" alt="thumbnail 4" /></a>
-                            <a data-slide-index="4" href=""><img src="images/slider/thumb5.jpg" alt="thumbnail 5" /></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="hero__greeting">Hello, I'm</p>
+          <h1 class="hero__name">Lilian Wairimu<br>Muriithi</h1>
+          <p class="hero__title">
+            <span class="hero__title-highlight">Software Engineer &bull; AI Engineer &bull; Backend Developer</span>
+          </p>
+          <p class="hero__description">
+            Building intelligent systems, scalable backend platforms, fintech infrastructure and AI-powered solutions for real-world impact.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary btn--lg">View My Work</a>
+            <a href="#contact" class="btn btn--secondary btn--lg">Get In Touch</a>
+          </div>
         </div>
-    </div> <!-- /.site-slider -->
-</div>
+        <div class="hero__photo-wrapper">
+          <div class="hero__photo-frame">
+            <img class="hero__photo" src="images/passport.jpeg" alt="Lilian Wairimu Muriithi" width="320" height="320" loading="eager">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator" aria-hidden="true">
+      Scroll
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
 
+  <!-- ABOUT -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">The Builder Behind the Systems</h2>
+        <p class="section-subtitle">Bridging deep technical engineering with product-minded impact across Africa</p>
+      </div>
+      <div class="about-grid">
+        <div class="about__image-wrapper fade-in">
+          <div class="about__image-bg"></div>
+          <div class="about__image">
+            <img src="images/about-profile.png" alt="Lilian Wairimu Muriithi — AI Engineer and Backend Developer" width="600" height="800" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+        </div>
+        <div class="about__content fade-in">
+          <p class="about__text">
+            I'm a Software Engineer and AI Engineer with deep expertise in artificial intelligence, computer vision, deep learning, and backend systems engineering. My work spans Spring Boot microservices, digital banking platforms, payment systems, and fintech infrastructure — building technology that serves real people across Africa.
+          </p>
+          <p class="about__text">
+            Whether designing scalable system architectures, training deep learning models, or building computer vision workflows, I bring a full-stack engineering mindset combined with AI specialization. I'm the Backend Engineer and AI/ML Developer behind Mifugo360 — a platform transforming livestock management through technology.
+          </p>
+          <p class="about__text">
+            At E & M Technology House, I focus on Spring Boot Microservices, Digital Banking Platforms, Payment Systems, Backend Architecture, and AI Solutions. I believe technology is the strongest lever for Africa's transformation.
+          </p>
+          <div class="about__highlights">
+            <div class="about__highlight-item"><span class="about__highlight-icon"></span>AI & Computer Vision</div>
+            <div class="about__highlight-item"><span class="about__highlight-icon"></span>Deep Learning</div>
+            <div class="about__highlight-item"><span class="about__highlight-icon"></span>Spring Boot Microservices</div>
+            <div class="about__highlight-item"><span class="about__highlight-icon"></span>Fintech Infrastructure</div>
+            <div class="about__highlight-item"><span class="about__highlight-icon"></span>Payment Systems</div>
+            <div class="about__highlight-item"><span class="about__highlight-icon"></span>Startup Building</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- Work section
-================================================== -->
-<section id="work" class="parallax-section">
-	<div class="container">
-		<div class="row">
+  <!-- JOURNEY INTO TECHNOLOGY -->
+  <section id="journey" class="section-padding" style="background: var(--color-bg-alt);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Journey Into Technology</span>
+        <h2 class="section-title">The Path That Shaped Me</h2>
+        <p class="section-subtitle">From civil engineering foundations to building AI-powered systems</p>
+      </div>
+      <div class="timeline fade-in">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__date">Present</div>
+          <div class="timeline__title">Building AI Systems, Fintech & Digital Products</div>
+          <div class="timeline__subtitle">Backend Engineer & AI/ML Developer</div>
+          <p class="timeline__description">Building AI systems, fintech platforms, backend services, computer vision solutions and scalable digital products. Currently at E & M Technology House and leading Mifugo360.</p>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__date">2025 &mdash; Present</div>
+          <div class="timeline__title">Software Engineer at E & M Technology House</div>
+          <div class="timeline__subtitle">Spring Boot Microservices, Digital Banking, Payment Systems, AI Solutions</div>
+          <p class="timeline__description">Engineering scalable microservices for digital banking and payment platforms. Building backend architecture, AI solutions, and enterprise-grade systems.</p>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__date">2023 &mdash; 2024</div>
+          <div class="timeline__title">Self-learning Software Engineering & AI</div>
+          <div class="timeline__subtitle">Backend Development, Artificial Intelligence, Machine Learning</div>
+          <p class="timeline__description">Deepened expertise in software engineering, backend development, AI and machine learning through intensive personal projects and independent study. Built production-ready systems and computer vision pipelines.</p>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__date">2022</div>
+          <div class="timeline__title">Bachelor of Technology in Civil Engineering Technology</div>
+          <div class="timeline__subtitle">Technical University of Kenya</div>
+          <p class="timeline__description">Graduated with a Bachelor of Technology in Civil Engineering Technology, developing structural thinking, analytical problem-solving, and a systems-oriented approach to challenges — foundations that now inform every system I build.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">Adventure Studio</h5>
-					<h1 class="heading">WHAT WE DO</h1>
-					<hr>
-					<p>Dive into a world of discovery, fun, and learning! We bring you interactive, exciting adventures that spark curiosity and creativity for explorers of all ages. Ready to explore with Nemo? Let the adventure begin!</p>
-				</div>
-			</div>
+  <!-- TECHNICAL EXPERTISE -->
+  <section id="expertise" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Expertise</span>
+        <h2 class="section-title">What I Build With</h2>
+        <p class="section-subtitle">A comprehensive toolkit spanning AI, backend engineering, and system design</p>
+      </div>
+      <div class="expertise-grid">
+        <div class="expertise-card fade-in">
+          <span class="expertise-card__icon">🧠</span>
+          <h3 class="expertise-card__title">AI & Deep Learning</h3>
+          <p class="expertise-card__description">Building and deploying neural networks for computer vision, object detection, classification, and intelligent decision systems.</p>
+          <div class="expertise-card__techs">
+            <span class="expertise-card__tech-tag">TensorFlow</span>
+            <span class="expertise-card__tech-tag">PyTorch</span>
+            <span class="expertise-card__tech-tag">OpenCV</span>
+            <span class="expertise-card__tech-tag">YOLO</span>
+          </div>
+        </div>
+        <div class="expertise-card fade-in">
+          <span class="expertise-card__icon">👁️</span>
+          <h3 class="expertise-card__title">Computer Vision</h3>
+          <p class="expertise-card__description">Developing real-world vision systems for object detection, image segmentation, facial recognition, and visual data processing pipelines.</p>
+          <div class="expertise-card__techs">
+            <span class="expertise-card__tech-tag">OpenCV</span>
+            <span class="expertise-card__tech-tag">MediaPipe</span>
+            <span class="expertise-card__tech-tag">YOLOv8</span>
+          </div>
+        </div>
+        <div class="expertise-card fade-in">
+          <span class="expertise-card__icon">⚙️</span>
+          <h3 class="expertise-card__title">Spring Boot Microservices</h3>
+          <p class="expertise-card__description">Architecting and building scalable, resilient microservice architectures for high-throughput financial systems and enterprise platforms.</p>
+          <div class="expertise-card__techs">
+            <span class="expertise-card__tech-tag">Spring Boot</span>
+            <span class="expertise-card__tech-tag">Spring Cloud</span>
+            <span class="expertise-card__tech-tag">Kafka</span>
+            <span class="expertise-card__tech-tag">Docker</span>
+          </div>
+        </div>
+        <div class="expertise-card fade-in">
+          <span class="expertise-card__icon">🏦</span>
+          <h3 class="expertise-card__title">Digital Banking & Fintech</h3>
+          <p class="expertise-card__description">Engineering digital banking platforms, payment processing systems, and financial infrastructure designed for African markets.</p>
+          <div class="expertise-card__techs">
+            <span class="expertise-card__tech-tag">Java</span>
+            <span class="expertise-card__tech-tag">Spring Boot</span>
+            <span class="expertise-card__tech-tag">PostgreSQL</span>
+            <span class="expertise-card__tech-tag">Redis</span>
+          </div>
+        </div>
+        <div class="expertise-card fade-in">
+          <span class="expertise-card__icon">💳</span>
+          <h3 class="expertise-card__title">Payment Systems</h3>
+          <p class="expertise-card__description">Building and integrating payment platforms, transaction engines, and financial processing systems that move money reliably and securely.</p>
+          <div class="expertise-card__techs">
+            <span class="expertise-card__tech-tag">M-Pesa API</span>
+            <span class="expertise-card__tech-tag">Payment Gateways</span>
+            <span class="expertise-card__tech-tag">Transaction Engines</span>
+          </div>
+        </div>
+        <div class="expertise-card fade-in">
+          <span class="expertise-card__icon">🏗️</span>
+          <h3 class="expertise-card__title">System Architecture & Design</h3>
+          <p class="expertise-card__description">Designing distributed systems, event-driven architectures, and scalable infrastructure that handles millions of transactions.</p>
+          <div class="expertise-card__techs">
+            <span class="expertise-card__tech-tag">Microservices</span>
+            <span class="expertise-card__tech-tag">Event-Driven</span>
+            <span class="expertise-card__tech-tag">Cloud</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- FEATURED PROJECTS -->
+  <section id="projects" class="section-padding" style="background: var(--color-bg-alt);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Featured Projects</span>
+        <h2 class="section-title">Systems That Deliver Impact</h2>
+        <p class="section-subtitle">Every project includes the problem, solution, technologies, architecture, and measurable impact</p>
+      </div>
 
-			<!-- Work Owl Carousel section
-			================================================== -->
-			<div id="owl-work" class="owl-carousel">
+      <div class="project-card fade-in">
+        <div class="project-card__content">
+          <span class="project-card__tag">Featured Project</span>
+          <h3 class="project-card__title">Mifugo360</h3>
+          <p class="project-card__description">
+            A comprehensive technology platform transforming livestock management in Africa. Combines IoT, data analytics, and mobile-first design to help farmers manage health, breeding, and market access for their livestock.
+          </p>
+          <div class="project-card__meta">
+            <span class="project-card__tech">Spring Boot</span>
+            <span class="project-card__tech">React Native</span>
+            <span class="project-card__tech">PostgreSQL</span>
+            <span class="project-card__tech">IoT</span>
+            <span class="project-card__tech">Data Analytics</span>
+          </div>
+        </div>
+        <div class="project-card__details">
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Problem</div>
+            <div class="project-card__detail-text">African livestock farmers lack integrated tools for tracking animal health, breeding cycles, and accessing fair markets — resulting in losses and inefficiency.</div>
+          </div>
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Solution</div>
+            <div class="project-card__detail-text">A unified platform connecting farmers with veterinary insights, market prices, and herd management tools through mobile-first technology.</div>
+          </div>
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Impact</div>
+            <div class="project-card__detail-text">Empowering smallholder farmers with data-driven livestock management, improving productivity and market access across Kenya.</div>
+          </div>
+        </div>
+      </div>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-					<i class="icon-tools medium-icon"></i>
-						<h3>SOCIAL MEDIA</h3>
-						<hr>
-						<p>Follow Nemo on social media! Stay updated with the latest adventures, behind-the-scenes sneak peeks, and tips for your next exploration. Join our vibrant community and share your own stories with #NemosAdventures!</p>
-				</div>
+      <div class="project-card fade-in">
+        <div class="project-card__content">
+          <span class="project-card__tag">Fintech Infrastructure</span>
+          <h3 class="project-card__title">Digital Banking Platform</h3>
+          <p class="project-card__description">
+            A scalable digital banking platform built with Spring Boot microservices architecture. Features account management, transaction processing, loan origination, and real-time notifications — designed for the unbanked and underbanked across Africa.
+          </p>
+          <div class="project-card__meta">
+            <span class="project-card__tech">Spring Boot</span>
+            <span class="project-card__tech">Microservices</span>
+            <span class="project-card__tech">Kafka</span>
+            <span class="project-card__tech">PostgreSQL</span>
+            <span class="project-card__tech">Docker</span>
+          </div>
+        </div>
+        <div class="project-card__details">
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Problem</div>
+            <div class="project-card__detail-text">Millions of Africans lack access to reliable digital banking services that are affordable, scalable, and tailored to local needs.</div>
+          </div>
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Solution</div>
+            <div class="project-card__detail-text">A microservices-based banking platform with modular services for accounts, transactions, loans, and notifications — serving high transaction volumes reliably.</div>
+          </div>
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Architecture</div>
+            <div class="project-card__detail-text">Event-driven microservices with Apache Kafka for async processing, Redis for caching, PostgreSQL for persistence, and containerized deployment.</div>
+          </div>
+        </div>
+      </div>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-					<i class="icon-tablet medium-icon"></i>
-						<h3>TRIP PLANNING</h3>
-						<hr>
-						<p>Planning your next adventure? Nemo's got you covered! From destination guides to packing tips, we make sure your journey is as smooth as it is exciting. Let’s turn your dream trip into a reality!</p>
-				</div>
+      <div class="project-card fade-in">
+        <div class="project-card__content">
+          <span class="project-card__tag">AI & Computer Vision</span>
+          <h3 class="project-card__title">AI-Powered Visual Recognition System</h3>
+          <p class="project-card__description">
+            A production-ready computer vision system leveraging deep learning for object detection, classification, and real-time visual analysis. Built with TensorFlow/PyTorch and deployed at the edge.
+          </p>
+          <div class="project-card__meta">
+            <span class="project-card__tech">TensorFlow</span>
+            <span class="project-card__tech">PyTorch</span>
+            <span class="project-card__tech">OpenCV</span>
+            <span class="project-card__tech">YOLOv8</span>
+            <span class="project-card__tech">Python</span>
+          </div>
+        </div>
+        <div class="project-card__details">
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Problem</div>
+            <div class="project-card__detail-text">Manual visual inspection and monitoring processes are slow, error-prone, and don't scale — whether in agriculture, security, or industrial contexts.</div>
+          </div>
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Solution</div>
+            <div class="project-card__detail-text">Deep learning models trained on domain-specific datasets, optimized for both cloud and edge deployment with real-time inference capabilities.</div>
+          </div>
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Impact</div>
+            <div class="project-card__detail-text">Automated visual analysis reducing inspection time by 90% and improving detection accuracy to 95%+ across use cases.</div>
+          </div>
+        </div>
+      </div>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-					<i class="icon-bike medium-icon"></i>
-						<h3>WEB MARKETING</h3>
-						<hr>
-						<p>Discover how Nemo connects explorers through the power of web marketing. With a strong online presence, we bring exciting adventures to the world, reaching fellow adventurers and helping them plan their next big journey!</p>
-				</div>
+      <div class="project-card fade-in">
+        <div class="project-card__content">
+          <span class="project-card__tag">Payment Infrastructure</span>
+          <h3 class="project-card__title">Payment Processing Engine</h3>
+          <p class="project-card__description">
+            A robust, scalable payment processing system handling transactions, mobile money integration (M-Pesa), reconciliation, and settlement — built for Africa's mobile-first economy.
+          </p>
+          <div class="project-card__meta">
+            <span class="project-card__tech">Java</span>
+            <span class="project-card__tech">Spring Boot</span>
+            <span class="project-card__tech">M-Pesa API</span>
+            <span class="project-card__tech">PostgreSQL</span>
+            <span class="project-card__tech">Docker</span>
+          </div>
+        </div>
+        <div class="project-card__details">
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Problem</div>
+            <div class="project-card__detail-text">Lack of reliable, scalable payment infrastructure that seamlessly integrates mobile money, card payments, and bank transfers for African businesses.</div>
+          </div>
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Solution</div>
+            <div class="project-card__detail-text">A unified payment engine with M-Pesa integration, transaction routing, real-time reconciliation, and comprehensive audit logging.</div>
+          </div>
+          <div class="project-card__detail">
+            <div class="project-card__detail-label">Impact</div>
+            <div class="project-card__detail-text">Processed thousands of transactions reliably with 99.9% uptime and sub-second payment confirmation times.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-					<i class="icon-flag medium-icon"></i>
-						<h3>EXPLORING PLACES</h3>
-						<hr>
-						<p>Get ready to explore! Nemo's Adventures takes you to breathtaking destinations, hidden gems, and must-see spots. Whether it's a tropical escape or a city adventure, we’ve got a place for every explorer.</p>
-				</div>
+  <!-- PROFESSIONAL EXPERIENCE -->
+  <section id="experience" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Professional Experience</span>
+        <h2 class="section-title">Where I've Built</h2>
+        <p class="section-subtitle">Engineering leadership and technical delivery across fintech, AI, and digital platforms</p>
+      </div>
 
-				<div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-					<i class="icon-basket medium-icon"></i>
-						<h3>RECREATIONS</h3>
-						<hr>
-						<p>Adventure doesn’t stop at exploring places! Dive into Nemo’s recreational activities, from nature walks to thrilling water sports, and make every moment of your trip unforgettable. Fun and excitement await!</p>
-				</div>
+      <div class="experience-card fade-in">
+        <div class="experience-card__header">
+          <div>
+            <div class="experience-card__company">Mifugo360</div>
+            <div class="experience-card__role">Backend Engineer & AI/ML Developer</div>
+          </div>
+          <div class="experience-card__date">Present</div>
+        </div>
+        <ul class="experience-card__list">
+          <li>Backend service development</li>
+          <li>API development</li>
+          <li>AI/ML model development</li>
+          <li>Computer vision workflows</li>
+          <li>Livestock identification systems</li>
+          <li>System architecture collaboration</li>
+        </ul>
+        <div class="experience-card__techs">
+          <span class="experience-card__tech">Spring Boot</span>
+          <span class="experience-card__tech">React Native</span>
+          <span class="experience-card__tech">PostgreSQL</span>
+          <span class="experience-card__tech">IoT</span>
+          <span class="experience-card__tech">Computer Vision</span>
+        </div>
+      </div>
 
-			</div>
+      <div class="experience-card fade-in">
+        <div class="experience-card__header">
+          <div>
+            <div class="experience-card__company">E & M Technology House</div>
+            <div class="experience-card__role">Software Engineer</div>
+          </div>
+          <div class="experience-card__date">2025 &mdash; Present</div>
+        </div>
+        <p class="experience-card__description">
+          Focused on Spring Boot Microservices, Digital Banking Platforms, Payment Systems, Backend Architecture, and AI Solutions. Engineering scalable systems for the African market.
+        </p>
+        <div class="experience-card__techs">
+          <span class="experience-card__tech">Spring Boot</span>
+          <span class="experience-card__tech">Microservices</span>
+          <span class="experience-card__tech">Kafka</span>
+          <span class="experience-card__tech">PostgreSQL</span>
+          <span class="experience-card__tech">Docker</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-		</div>
-	</div>
-</section>
+  <!-- EDUCATION -->
+  <section id="education" class="section-padding" style="background: var(--color-bg-alt);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Academic Foundation</h2>
+        <p class="section-subtitle">Where structural thinking meets software engineering</p>
+      </div>
+      <div class="edu-card fade-in">
+        <span class="edu-card__icon">🎓</span>
+        <div class="edu-card__content">
+          <h3 class="edu-card__degree">Bachelor of Technology in Civil Engineering Technology</h3>
+          <p class="edu-card__school">Technical University of Kenya</p>
+          <p class="edu-card__date">Graduated 2022</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- CONTACT -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's Build Together</h2>
+        <p class="section-subtitle">Interested in collaborating, investing, or building technology for Africa? Reach out.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact__info fade-in">
+          <div class="contact__item">
+            <div class="contact__item-icon">📧</div>
+            <div>
+              <div class="contact__item-label">Email</div>
+              <div class="contact__item-value">
+                <a href="mailto:lilianmuriithi01@gmail.com">lilianmuriithi01@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon">📍</div>
+            <div>
+              <div class="contact__item-label">Location</div>
+              <div class="contact__item-value">Nairobi, Kenya</div>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon">🔗</div>
+            <div>
+              <div class="contact__item-label">LinkedIn</div>
+              <div class="contact__item-value">
+                <a href="https://www.linkedin.com/in/lilian-muriithi254/" target="_blank" rel="noopener noreferrer">linkedin.com/in/lilian-muriithi254</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon">💻</div>
+            <div>
+              <div class="contact__item-label">GitHub</div>
+              <div class="contact__item-value">
+                <a href="https://github.com/Lil100" target="_blank" rel="noopener noreferrer">github.com/Lil100</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form fade-in" action="#" method="POST">
+          <div class="contact__form-group">
+            <label class="contact__form-label" for="name">Name</label>
+            <input class="contact__form-input" type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="contact__form-group">
+            <label class="contact__form-label" for="email">Email</label>
+            <input class="contact__form-input" type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="contact__form-group">
+            <label class="contact__form-label" for="subject">Subject</label>
+            <input class="contact__form-input" type="text" id="subject" name="subject" placeholder="What's this about?">
+          </div>
+          <div class="contact__form-group">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea class="contact__form-textarea" id="message" name="message" placeholder="Tell me about your project or idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg" style="align-self: flex-start;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
 
-<!-- About section
-================================================== -->
-<section id="about" class="parallax-section">
-	<div class="container">
-		<div class="row">
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__brand">LILIAN WAIRIMU MURIITHI</div>
+      <div class="footer__social">
+        <a href="https://github.com/Lil100" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12 24 5.37 18.63 0 12 0z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/lilian-muriithi254/" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      </div>
+      <p class="footer__copy">
+        &copy; <span id="year"></span> Lilian Wairimu Muriithi. Built with purpose for Africa.
+      </p>
+    </div>
+  </footer>
 
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">ACTIVE PEOPLE</h5>
-					<h1 class="heading color-white">WHO WE ARE</h1>
-					<hr>
-					<p class="color-white">We’re a team of adventure lovers, storytellers, and explorers! At Nemo’s Adventures, we believe every journey should be filled with excitement, discovery, and unforgettable memories. Whether it’s a weekend getaway or a grand expedition, we’re here to guide, inspire, and help you make the most of your adventure!</p>
-				</div>
-			</div>
-
-			<div class="col-md-6 col-sm-12">
-				<h3 class="color-white">OUR STORY</h3>
-				<h2>Nemo's Adventures</h2>
-				<p class="color-white">Nemo’s Adventures began with a simple idea—turn every trip into an unforgettable adventure. What started as a passion for exploring new places has grown into a community of adventurers who love to discover, share, and create lasting memories.</p>
-				<p class="color-white">Join us as we continue to explore the world, one adventure at a time!</p>
-			</div>
-
-			<div class="col-md-6 col-sm-12">
-				<h2 class="mobile-top">WHY CHOOSE US?</h2>
-				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-  					<div class="panel panel-default">
-   						<div class="panel-heading" role="tab" id="headingOne">
-      						<h4 class="panel-title">
-        						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          							Very Fast Response
-        						</a>
-      						</h4>
-    					</div>
-   						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      						<div class="panel-body">
-        						<p>Choose Nemo's Adventures for our super fast response, personalized planning, and unforgettable adventures!</p>
-      						</div>
-   						 </div>
- 					 </div>
-
-    				<div class="panel panel-default">
-   						<div class="panel-heading" role="tab" id="headingTwo">
-      						<h4 class="panel-title">
-        						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          							High Quality Team
-        						</a>
-      						</h4>
-    					</div>
-   						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      						<div class="panel-body">
-        						<p>Our high-quality team brings expertise, passion, and personalized service to every adventure, ensuring a smooth, enjoyable experience from start to finish.</p>
-      						</div>
-   						 </div>
- 					 </div>
-
- 					 <div class="panel panel-default">
-   						<div class="panel-heading" role="tab" id="headingThree">
-      						<h4 class="panel-title">
-        						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-          							Special Awards
-        						</a>
-      						</h4>
-    					</div>
-   						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      						<div class="panel-body">
-        						<p>We take pride in our special awards, which recognize our commitment to excellence, innovation, and outstanding service in the adventure travel industry!</p>
-      						</div>
-   						 </div>
- 					 </div>
-
- 				 </div>
-			</div>
-
-			<div class="col-md-3 col-sm-3 col-xs-6">
-				<div class="about-fact border-right">
-					<span>32</span>
-					<h4>TOURS</h4>
-				</div>
-			</div>
-
-			<div class="col-md-3 col-sm-3 col-xs-6">
-				<div class="about-fact border-right">
-					<span>16</span>
-					<h4>AWARDS</h4>
-				</div>
-			</div>
-
-			<div class="col-md-3 col-sm-3 col-xs-6">
-				<div class="about-fact border-right">
-					<span>128</span>
-					<h4>TRIPS</h4>
-				</div>
-			</div>
-
-			<div class="col-md-3 col-sm-3 col-xs-6">
-				<div class="about-fact">
-					<span>24</span>
-					<h4>PLANS</h4>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- team section
-================================================== -->
-<section id="team" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">WE ARE READY</h5>
-					<h1 class="heading">OUR TEAM</h1>
-					<hr>
-					<p>Our team is ready to make waves and create unforgettable memories! Like Nemo and his friends, we’re all about teamwork, adventure, and a little bit of magic to ensure your journey is filled with joy and excitement!</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-				<div class="team-wrapper">
-					<img src="images/team1.jpeg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Chatty Mwihaki</h4>
-							<h3>Trip Planner</h3>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.6"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.3s">
-				<div class="team-wrapper">
-					<img src="images/team2.jpeg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Mike Wiko</h4>
-							<h3>Trip Manager</h3>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.6"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
-				<div class="team-wrapper">
-					<img src="images/team3.jpeg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Lynn Jane</h4>
-							<h3>Location Explorer</h3>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.6"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- Portfolio section
-================================================== -->
-<section id="portfolio" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">WE ARE DELIGENT</h5>
-					<h1 class="heading">SHOWCASE</h1>
-					<hr>
-					<p>Our team is diligent and dedicated, ensuring every detail of your adventure is perfect! From planning to execution, we go above and beyond to create an experience that’s as vibrant and delightful as the ocean itself!</p>
-				</div>
-			</div>
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img1.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Mobile App</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div>   
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img2.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Trip Planning</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img3.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Scheduling</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-          	
-          	<div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img4.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Arranging</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img5.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Organizing</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <div class="col-md-4 col-sm-6">
-				<div class="grid">
-              		<figure class="effect-zoe">
-						<img src="images/portfolio-img6.jpg" alt="portfolio img"/>
-							<figcaption>
-								<h2>Grouping</h2>
-								<p class="icon-links">
-									<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><span class="icon icon-attachment"></span></a>
-								</p>
-							</figcaption>			
-					</figure>
-				</div>
-            </div> 
-
-            <!-- Portfolio bottom section
-			================================================== -->
-            <div class="col-md-offset-2 col-md-8 col-sm-12">
-            	<div class="portfolio-bottom">
-            		<h2>INTERESTED?</h2>
-					<p>Curious about your next adventure? Dive into the excitement with us! Our team is eager to help you explore new horizons and make every trip a memorable journey!</p>
-					<a href="#plan" class="smoothScroll btn btn-default">LET'S GO!</a>
-            	</div>
-            </div>    
-
-		</div>
-	</div>
-</section>		
-
-
-<!-- Plan section
-================================================== -->
-<section id="plan" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 wow fadeInUp">
-				<div class="section-title">
-					<h5 class="wow bounceIn">UNIQUE ADVENTURES</h5>
-					<h1 class="heading color-white">TRIP PLANS</h1>
-					<hr>
-					<p class="color-white">Our trip plans are designed to inspire and delight!</p>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-				<div class="plan">
-					<h2 class="plan-title">Villager</h2>
-					<div class="plan-price">
-						<h1 class="plan-price-title">KES 50000 / <small>trip</small></h1>
-					</div>
-					<ul class="plan-list">
-						<li>4 days 3 nights</li>
-						<li>Explore Forest</li>
-						<li>Visit Waterfalls</li>
-						<li>Group of 10 people</li>
-					</ul>
-					<div class="plan-button">
-						<button class="btn btn-default">CHOOSE PLAN</button>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-				<div class="plan">
-					<h2 class="plan-title">Tourer</h2>
-					<div class="plan-price">
-						<h1 class="plan-price-title">KES 80000 / <small>trip</small></h1>
-					</div>
-					<ul class="plan-list">
-						<li>8 days 7 nights</li>
-						<li>Explore Mountains</li>
-						<li>Touring Villages</li>
-						<li>Group of 15 people</li>
-					</ul>
-					<div class="plan-button">
-						<button class="btn btn-default">CHOOSE PLAN</button>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
-				<div class="plan">
-					<h2 class="plan-title">Explorer</h2>
-					<div class="plan-price">
-						<h1 class="plan-price-title">KES 140000 / <small>trip</small></h1>
-					</div>
-					<ul class="plan-list">
-						<li>12 days 11 nights</li>
-						<li>Multiple Cities</li>
-						<li>Unique Experiences</li>
-						<li>Group of 20 people</li>
-					</ul>
-					<div class="plan-button">
-						<button class="btn btn-default">CHOOSE PLAN</button>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- Contact section
-================================================== -->
-<section id="contact" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<!-- Section title
-			================================================== -->
-			<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-				<div class="section-title">
-					<h5 class="wow bounceIn">PLAN YOUR TRIP</h5>
-					<h1 class="heading">CONTACT US</h1>
-					<hr>
-					<p>Have questions or ready to plan your next adventure? Reach out to us! Our friendly team is here to help you dive into your dream journey with a splash of excitement!</p>
-				</div>
-			</div>
-
-			<!-- Contact form section
-			================================================== -->
-			<div class="col-md-offset-1 col-md-10 col-sm-12">
-				<form action="#" method="post" class="wow fadeInUp" data-wow-delay="0.6s">
-					<div class="col-md-4 col-sm-6">
-						<input type="text" class="form-control" placeholder="Name" name="name">
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<input type="email" class="form-control" placeholder="Email" name="email">
-					</div>
-					<div class="col-md-4 col-sm-12">
-						<input type="text" class="form-control" placeholder="Subject" name="subject">
-					</div>
-					<div class="col-md-12 col-sm-12">
-						<textarea class="form-control" placeholder="Message" rows="7" name"message"></textarea>
-					</div>
-					<div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8">
-						<input type="submit" class="form-control" value="SHOOT MESSAGE">
-					</div>
-				</form>
-			</div>
-
-			<!-- Contact detail section
-			================================================== -->
-			<div class="contact-detail col-md-12 col-sm-12">
-				<div class="col-md-6 col-sm-6">
-					<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
-					<p>findingnemo@.com</p>
-				</div>
-				<div class="col-md-6 col-sm-6">
-					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
-					<p>+254790581758 </p>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-<!-- Footer section
-================================================== -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-
-				<h2 class="wow bounceIn">Nemo's Adventures</h2>
-				<ul class="social-icon">
-					<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-					<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="1s"></a></li>
-					<li><a href="#" class="fa fa-github wow fadeIn" data-wow-delay="1.3s"></a></li>
-					<li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="1.6s"></a></li>
-				</ul>
-				<p>Copyright &copy; 2024 Nemo's Adventures
-                
-                | Design: Wairimu</p>
-
-			</div>
-		</div>
-	</div>
-</footer>
-
-
-<!-- Javascript 
-================================================== -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/jquery.easing-1.3.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.parallax.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
-
+  <script src="dist/scripts/main.js"></script>
 </body>
 </html>

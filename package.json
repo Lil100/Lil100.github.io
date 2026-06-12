@@ -1,0 +1,19 @@
+{
+  "name": "lilian-wairimu-portfolio",
+  "version": "2.0.0",
+  "description": "Lilian Wairimu Muriithi - Software Engineer, AI Engineer, Backend Developer & Technology Builder",
+  "private": true,
+  "scripts": {
+    "dev": "tsc && concurrently \"tsc --watch\" \"lite-server\"",
+    "build": "tsc && cleancss -o dist/styles.min.css src/styles/*.css && html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype -o dist/index.html index.html",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "concurrently": "^8.2.2",
+    "gh-pages": "^6.1.1",
+    "html-minifier": "^4.0.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.9.3"
+  }
+}
